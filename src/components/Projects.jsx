@@ -2,6 +2,21 @@ import ProjectCard from "./ProjectCard";
 
 const projects = [
   {
+    title: "Alpine Trail Co.",
+    imgSrc: "/assets/img/alpinetrailco.png",
+    description:
+      "I helped Alpine Trail Co. build their online presence by developing a modern, responsive website for their premium off-road accessories. The project involved creating reusable UI components with React + TypeScript, styling with Tailwind CSS, and deploying on Vercel.",
+    viewUrl: "https://alpinetrailco.com/",
+    githubUrl: "https://github.com/vbisso/soap-shop-cse340",
+  },
+  {
+    title: "Kitchen-Keeper",
+    imgSrc: "./public/assets/img/kitchen-keeper.png",
+    description:
+      "Full-stack React Native app with Express and MongoDB backend, barcode scanning via external API, and AI-powered data cleaning pipeline.",
+    githubUrl: "https://github.com/vbisso/kitchen-keeper",
+  },
+  {
     title: "Soap Shop Web Application",
     imgSrc: "/assets/img/soap_shop.png",
     description:
@@ -22,27 +37,6 @@ const projects = [
     description: "Static web app with modular JS and EJS templating.",
     viewUrl: "https://ip-expeditions.netlify.app/",
     githubUrl: "https://github.com/vbisso/IPE",
-  },
-  {
-    title: "Refridge-alert",
-    imgSrc: "/assets/img/refridge-alert.png",
-    description:
-      "React Native mobile app with local data storage and modular structure.",
-    githubUrl: "https://github.com/vbisso/refridge-alert",
-  },
-  {
-    title: "Miami Chamber of Commerce",
-    imgSrc: "/assets/img/miami-chamber.png",
-    description: "Static website using weather API and interactive forms.",
-    viewUrl: "https://vbisso.github.io/wdd230/chamber/index.html",
-    githubUrl: "https://github.com/vbisso/wdd230/tree/master/chamber",
-  },
-  {
-    title: "CaliCast",
-    imgSrc: "",
-    description:
-      "Weather data dashboard using Shiny, Python, and a cloud database.",
-    githubUrl: "https://github.com/callalilyleaf/CaliCast",
   },
 ];
 

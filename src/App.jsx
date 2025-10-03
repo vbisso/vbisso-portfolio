@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Header />
-      <main className="mx-auto">
+      <main className="flex flex-col items-center  bg-stone-200">
         <Home />
         <About />
         <Projects />

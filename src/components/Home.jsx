@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <section
       id="home"
-      className="relative h-screen scroll-mt-14 flex flex-col justify-center items-center rounded-b-3xl text-stone-200"
+      className="bg-stone-900 section-container w-screen relative h-screen scroll-mt-14 flex flex-col justify-center items-center rounded-b-3xl text-stone-200"
     >
       <h1 className="text-3xl sm:text-6xl text-center px-1">
         Welcome to my Portfolio.
