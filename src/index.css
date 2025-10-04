@@ -6,6 +6,16 @@ html {
 
 .bg-lavander {
   background-color: #c7c3ea;
+  opacity: 0.9;
+}
+.bg-periwinkle {
+  background-color: #024555;
+}
+.text-lavender {
+  color: #c7c3ea;
+}
+.text-periwinkle {
+  color: #024555;
 }
 
 body {

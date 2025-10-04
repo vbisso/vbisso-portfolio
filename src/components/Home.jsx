@@ -1,13 +1,18 @@
+import { motion } from "framer-motion";
 export default function Home() {
   return (
     <section
       id="home"
-      className="bg-stone-900 section-container w-screen relative h-screen scroll-mt-14 flex flex-col justify-center items-center rounded-b-3xl text-stone-200"
+      className="bg-stone-900 px-4 section-container w-screen relative h-screen scroll-mt-14 flex flex-col justify-center items-center rounded-b-3xl text-stone-200"
     >
-      <h1 className="text-3xl sm:text-6xl text-center px-1">
+      <motion.h1
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+        className="text-4xl sm:text-6xl font-bold"
+      >
         Welcome to my Portfolio.
-        <br />
-      </h1>
+      </motion.h1>
       <div className="absolute bottom-0 w-full overflow-hidden leading-[0]">
         <svg
           className="relative block w-full h-[100px]"

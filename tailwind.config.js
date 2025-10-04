@@ -5,9 +5,9 @@ export default {
     extend: {
       colors: {
         periwinkle: "#024555",
-        lavender: "#c0c9fa",
+        lavander: "#c0c9fa",
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-animate")],
 };
