@@ -17,7 +17,7 @@ export default function About() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="flex justify-center">
             <img
-              src="/assets/img/profile.jpg"
+              src="assets/img/profile.jpg"
               alt="Profile"
               className="w-3/4 md:w-[90%] rounded-lg shadow-lg object-cover border-4 border-white"
             />

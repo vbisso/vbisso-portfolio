@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 const projects = [
   {
     title: "Alpine Trail Co.",
-    imgSrc: "/assets/img/alpinetrailco.png",
+    imgSrc: "assets/img/alpinetrailco.png",
     description:
       "Built a modern, responsive website for a premium off-road accessories company using React, TypeScript, Tailwind, and deployed on Vercel.",
     viewUrl: "https://alpinetrailco.com/",
@@ -11,14 +11,14 @@ const projects = [
   },
   {
     title: "Kitchen Keeper",
-    imgSrc: "/assets/img/kitchen-keeper.png",
+    imgSrc: "assets/img/kitchen-keeper.png",
     description:
       "Full-stack React Native app with Express and MongoDB backend, barcode scanning via external API, and AI-powered data cleaning pipeline.",
     githubUrl: "https://github.com/vbisso/kitchen-keeper",
   },
   {
     title: "Soap Shop Web Application",
-    imgSrc: "/assets/img/soap_shop.png",
+    imgSrc: "assets/img/soap_shop.png",
     description:
       "Full-stack e-commerce site built with Node.js, Express, PostgreSQL, and EJS.",
     viewUrl: "https://soap-shop-cse340.onrender.com/",
@@ -26,7 +26,7 @@ const projects = [
   },
   {
     title: "To-Do List",
-    imgSrc: "/assets/img/to-do.png",
+    imgSrc: "assets/img/to-do.png",
     description:
       "Clean and dynamic React app with full CRUD functionality and modern UI.",
     viewUrl: "https://vbisso.github.io/to-do-list/",
@@ -34,7 +34,7 @@ const projects = [
   },
   {
     title: "Island Park Expeditions",
-    imgSrc: "/assets/img/ipe.png",
+    imgSrc: "assets/img/ipe.png",
     description:
       "Static web app with modular JS and EJS templating for local tour company.",
     viewUrl: "https://ip-expeditions.netlify.app/",
