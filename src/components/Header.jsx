@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <nav className="fixed top-0 mx-auto justify-self-center sm:right-0 z-100 bg-lavander backdrop-blur-sm px-6 py-4 rounded-b-2xl sm:rounded-bl-2xl sm:rounded-br-none shadow-md">
-      <ul className="flex flex-row items-center gap-6 sm:gap-10 sm:text-lg font-medium text-stone-900">
+      <ul className="flex flex-row items-center gap-6 sm:gap-10 sm:text-lg  text-stone-900">
         <li>
           <a
             href="#home"
