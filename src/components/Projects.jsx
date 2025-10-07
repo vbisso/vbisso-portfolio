@@ -17,10 +17,20 @@ const projects = [
     githubUrl: "https://github.com/vbisso/kitchen-keeper",
   },
   {
+    title: "Buddy Reading API",
+    imgSrc: "/assets/img/buddy-reading.png",
+    description:
+      "A backend web service that simulates a social network where users track their reading progress with friends. Built with Node.js, Express, and MongoDB, featuring RESTful endpoints, Swagger docs, and Jest testing.",
+    viewUrl: "https://buddy-reading-tracker.onrender.com/api-docs/",
+    githubUrl: "https://github.com/vbisso/buddy_reading_tracker-",
+  },
+
+  {
     title: "Order Tracker Dashboard",
     imgSrc: "assets/img/order-tracker.png",
     description:
-      "Responsive dashboard that simulates an Amazon-style order tracker. Built with React and Tailwind CSS, implementing reusable components, mock authentication, and dynamic search/filter functions.",
+      "Responsive dashboard that simulates an Amazon-style order tracker. Built with React, TypeScript, and Tailwind CSS, featuring integration with a RESTful FakeStore API to dynamically fetch order and product data. Implements reusable components, and interactive filter functions.",
+
     githubUrl: "https://github.com/vbisso/order-tracker",
   },
   {
@@ -30,14 +40,6 @@ const projects = [
       "Full-stack e-commerce site built with Node.js, Express, PostgreSQL, and EJS.",
     viewUrl: "https://soap-shop-cse340.onrender.com/",
     githubUrl: "https://github.com/vbisso/soap-shop-cse340",
-  },
-  {
-    title: "To-Do List",
-    imgSrc: "/assets/img/to-do.png",
-    description:
-      "Clean and dynamic React app with full CRUD functionality and modern UI.",
-    viewUrl: "https://vbisso.github.io/to-do-list/",
-    githubUrl: "https://github.com/vbisso/to-do-list",
   },
   {
     title: "Island Park Expeditions",
