@@ -73,8 +73,8 @@ export default function About() {
             </h3>
 
             <p className="text-stone-600">
-              Node.js, Vite, Git/GitHub, npm, VS Code, JetBrains Rider, Vercel,
-              Render
+              Node.js, Vite, Git/GitHub, npm, VS Code, JetBrains Rider,Postman,
+              Swagger, Vercel, Render
             </p>
           </div>
 
@@ -91,7 +91,9 @@ export default function About() {
             </h3>
 
             <p className="text-stone-600">
-              Agile (Scrum), Extreme Programming (XP), DevOps principles
+              RESTful API design, Automated testing (Jest), Continuous
+              Integration (CI/CD), Agile (Scrum), Extreme Programming (XP),
+              DevOps principles
             </p>
           </div>
 
