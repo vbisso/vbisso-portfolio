@@ -30,6 +30,7 @@ const projects = [
     imgSrc: "assets/img/order-tracker.png",
     description:
       "Responsive dashboard that simulates an Amazon-style order tracker. Built with React, TypeScript, and Tailwind CSS, featuring integration with a RESTful FakeStore API to dynamically fetch order and product data. Implements reusable components, and interactive filter functions.",
+    viewUrl: "https://vbisso.github.io/order-tracker/",
 
     githubUrl: "https://github.com/vbisso/order-tracker",
   },
